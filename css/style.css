@@ -1,0 +1,23 @@
+*,
+:before,
+::after{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.vue-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.hello-world{
+    position: relative;
+    text-align: center;
+    line-height: 100vh;
+    background: #0008;
+    color: white;
+}

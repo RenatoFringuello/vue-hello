@@ -6,12 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vue Hello</title>
 
+    <!-- my style -->
+    <link rel="stylesheet" href="./css/style.css">
+
     <!-- vue v3.2.45 -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 </head>
 <body>
     <main id="app">
-        <h1>{{ helloWorld }}</h1>
+        <img :class="imgClass" :src="imgSrc">
+        <h1 :class="helloWorldClass">{{ helloWorldContent }}</h1>
     </main>
     <!-- my script -->
     <script src="./js/script.js"></script>
